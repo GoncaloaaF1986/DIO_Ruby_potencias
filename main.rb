@@ -5,7 +5,6 @@ n = []
   n.push(gets.chomp.to_i)
 end
 
-
 n.each do |i|
   puts "#{i} ao cubo = #{i**3}"
 end
